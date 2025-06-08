@@ -1,12 +1,36 @@
-# React + Vite
+# Midhun Dominic Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio built with React and Vite, showcasing my projects, skills, certifications, and leadership experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Clean, professional design
+- Highlights main project: [Medicloud](https://mediclouds.onrender.com/)
+- Sections: About, Projects, Skills, Certifications, Leadership, Contact
+- Fully responsive and optimized for Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Getting Started
 
-## Expanding the ESLint configuration
+### Install dependencies
+```
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Run locally
+```
+npm run dev
+```
+
+### Build for production
+```
+npm run build
+```
+
+## 🌐 Deploying to Netlify
+1. Push this repo to GitHub.
+2. Connect your repo to Netlify.
+3. Set build command: `npm run build` and publish directory: `dist`
+4. Deploy!
+
+---
+
+© {year} Midhun Dominic
