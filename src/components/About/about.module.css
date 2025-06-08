@@ -1,0 +1,108 @@
+.about {
+  padding: 6rem 2rem;
+  background: #1a1a1a;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #4a90e2;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #4a90e2;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #a0aec0;
+}
+
+.text p {
+  margin-bottom: 1.5rem;
+}
+
+.education {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #4a90e2;
+}
+
+.educationItem {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.educationItem:hover {
+  transform: translateY(-5px);
+}
+
+.educationItem h4 {
+  font-size: 1.2rem;
+  color: #63b3ed;
+  margin-bottom: 0.5rem;
+}
+
+.educationItem p {
+  color: #a0aec0;
+  margin-bottom: 0.3rem;
+}
+
+.educationItem span {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #718096;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .education {
+    padding: 1.5rem;
+  }
+}
