@@ -7,7 +7,7 @@ export default function Hero() {
         <div className={styles.content}>
           <div className={styles.imageContainer}>
             <img 
-              src="/Images/profile.jpeg" 
+              src="/portfolio/src/Images/profile.jpeg" 
               alt="Midhun Dominic" 
               className={styles.profileImage}
             />
