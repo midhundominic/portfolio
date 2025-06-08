@@ -1,0 +1,121 @@
+.leadership {
+  padding: 6rem 2rem;
+  background: #1a1a1a;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #4a90e2;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #4a90e2;
+}
+
+.experienceCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experienceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h3 {
+  font-size: 1.8rem;
+  color: #63b3ed;
+  margin: 0;
+}
+
+.duration {
+  font-size: 1rem;
+  color: #718096;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.content {
+  color: #a0aec0;
+}
+
+.role {
+  font-size: 1.2rem;
+  color: #63b3ed;
+  margin-bottom: 0.5rem;
+}
+
+.organization {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.activities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activities li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.bullet {
+  color: #4a90e2;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .header h3 {
+    font-size: 1.5rem;
+  }
+
+  .experienceCard {
+    padding: 1.5rem;
+  }
+
+  .role, .organization {
+    font-size: 1rem;
+  }
+}
